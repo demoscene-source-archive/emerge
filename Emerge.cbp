@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Emerge" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Emerge" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add library="mingw32" />
+					<Add library="opengl32" />
+					<Add library="sdlmain" />
+					<Add library="sdl" />
+					<Add library="bass" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Emerge" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wmain" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add library="mingw32" />
+					<Add library="sdlmain" />
+					<Add library="sdl" />
+					<Add library="opengl32" />
+					<Add library="bass" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="2015.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BVH.cpp" />
+		<Unit filename="BVH.hpp" />
+		<Unit filename="Common.hpp" />
+		<Unit filename="DemoMain.cpp" />
+		<Unit filename="Mat.hpp" />
+		<Unit filename="Orion.cpp" />
+		<Unit filename="Orion.hpp" />
+		<Unit filename="Ran.hpp" />
+		<Unit filename="Shader.cpp" />
+		<Unit filename="Shader.hpp" />
+		<Unit filename="Vec.hpp" />
+		<Unit filename="animations.cpp" />
+		<Unit filename="animations.hpp" />
+		<Unit filename="gl3w/src/gl3w.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="markers.hpp" />
+		<Unit filename="materials.cpp" />
+		<Unit filename="materials.hpp" />
+		<Unit filename="meshes.cpp" />
+		<Unit filename="meshes.hpp" />
+		<Unit filename="nodes.cpp" />
+		<Unit filename="nodes.hpp" />
+		<Unit filename="shader_data.cpp" />
+		<Unit filename="shader_data.hpp" />
+		<Unit filename="sky_mesh.cpp" />
+		<Unit filename="sky_mesh.hpp" />
+		<Unit filename="voxels.cpp" />
+		<Unit filename="voxels.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

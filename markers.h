@@ -1,0 +1,20 @@
+struct Marker { const char* name; int frame; const char* camera_name; };
+Marker markers[]={
+{ "F_309", 309, "Camera.001" },
+{ "F_01", 1, "Camera" },
+{ "F_463", 619, "Camera.002" },
+{ "F_617", 922, "Camera.003" },
+{ "F_1385", 1385, "Camera.003" },
+{ "F_1538", 1615, "Camera.005" },
+{ "F_1692", 1692, "Camera.006" },
+{ "F_1846", 1999, "Camera.007" },
+{ "F_2887", 2766, "Camera.008" },
+{ "F_3074", 2920, "Camera.009" },
+{ "F_3226", 3072, "None" },
+{ "F_3381", 3227, "Camera.010" },
+{ "F_3458", 3337, "Camera.011" },
+{ "F_3611", 3457, "Camera.012" },
+{ "F_810", 810, "Camera.013" },
+{ "F_2459", 2459, "Camera.014" },
+{ "F_1847", 1847, "Camera.007" },
+};

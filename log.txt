@@ -1,0 +1,20 @@
+Window dimensions = 1280 x 720.
+Window fullscreen = yes.
+GL_VERSION = '4.6.0 NVIDIA 398.36'
+GL_VENDOR = 'NVIDIA Corporation'
+GL_RENDERER = 'GeForce GTX 1060/PCIe/SSE2'
+loadVoxels: 124ms
+uploadMeshes: 1ms
+createEntities: 1ms
+loading shaders: 1167ms
+paper texture: 13ms
+renderSkyBox: 8ms
+createSkyscraperCubeMaps: 35ms
+createParticleVelocityMap: 2ms
+27870 chunks
+chunk_texture_size = 256
+createExplosionChunks: 33ms
+createBlossoms: 27ms
+createSubdividedVillage: 87ms
+Texture memory usage estimation: 661338208 bytes.
+Buffer memory usage estimation: 40491182 bytes.

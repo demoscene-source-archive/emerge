@@ -1,0 +1,15 @@
+This demo was made using the Code::Blocks IDE: http://www.codeblocks.org/
+
+Compile it with GCC.
+
+The Code::Blocks project file is "Emerge.cbp".
+
+The following libraries are needed:
+	SDL 1.2 https://www.libsdl.org/download-1.2.php
+	DevIL http://openil.sourceforge.net/
+	BASS https://www.un4seen.com/bass.html
+
+Assimp is also required, but it is a custom hack of Assimp for which the source code has been lost.
+The purpose of the custom hack was to fix the COLLADA loader so that it would load the COLLADA scene file correctly.
+
+gl3w is included for loading OpenGL on Windows
